@@ -9,12 +9,12 @@
         android:layout_height="match_parent"
         tools:context="ui.activity.MainActivity">
 
-        <android.support.v4.view.ViewPager
+        <ui.widget.NoScrollViewPager
             android:id="@+id/viewPager"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-        </android.support.v4.view.ViewPager>
+        </ui.widget.NoScrollViewPager>
         <android.support.design.widget.BottomNavigationView
             app:layout_behavior="@string/bye_burger_bottom_behavior"
             android:id="@+id/navigationView"
