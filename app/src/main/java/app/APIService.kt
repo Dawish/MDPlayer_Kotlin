@@ -5,7 +5,6 @@ import model.MeizhiList
 import retrofit2.http.GET
 import retrofit2.http.Query
 import rx.Observable
-import java.util.*
 
 /**
  * Created by dawish on 2017/5/24.
