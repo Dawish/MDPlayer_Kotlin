@@ -3,7 +3,7 @@ package model
 /**
  * Created by Danxx on 2016/6/15.
  */
-class MeizhiList : Model() {
+ class MeizhiList : Model() {
     var isStatus: Boolean = false
     var total: Int = 0
     var tngou: List<TngouEntity>? = null
